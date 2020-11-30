@@ -18,6 +18,8 @@
 
   <body>
 
+
+  <!--le htmlspecialchars permet d'éviter les envoie de script -->
     <?php
 
       $prenom = htmlspecialchars($_POST["prenom"]);
@@ -30,7 +32,10 @@
 
       echo "Les données du formulaire ont été mémorisées.<br>";
 
-      echo "<a href=\"lecture-session.php\">Cliquez sur ce lien pour vérifier.</a>";
+      echo "<div><a href=\"lecture-session.php\">Cliquez sur ce lien pour vérifier.</a> </div>";
+
+      echo "<div><a href=\"transmission_donnee_par_formulaire.php\">Cliquez sur ce lien pour vérifier.</a></div>";
+
 
     ?>
 
