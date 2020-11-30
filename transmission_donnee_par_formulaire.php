@@ -63,5 +63,7 @@ echo json_encode ($_SESSION["nom"].$_SESSION["prenom"]);
         );
         echo json_encode($post_data)."\n";
 ?>
+
+<p><strong>Pour la suite et avec ce meme tableaux on va manipuler ces donnée json à partir de php</strong></p>
   </body>
 </html>
